@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.fade-inH1 {
+  animation: fadeInH1 2s ease-out;
+}
+
+.fade-in2 {
+  animation: fadeIn2 4s ease-out;
+}
+
+.fade-in3 {
+  animation: fadeIn3 4s ease-out;
+}
+
+@keyframes fadeInH1 {
+  from {
+    margin-left: -1080px;
+  }
+
+  to {
+    margin-left: 0px;
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    margin-left: -2000px;
+  }
+
+  to {
+    margin-left: 160px;
+  }
+}
+
+@keyframes fadeIn3 {
+  from {
+    margin-left: -2000px;
+  }
+
+  to {
+    margin-left: 860px;
+  }
+}
+
+.section {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  transition: background-image 0.5s ease;
+}
+
+.div-geral {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.titulo1 {
+  font-family: 'Shadows Into Light', cursive;
+  padding: 0px;
+  display: flex;
+  color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 150px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.titulo2 {
+  font-family: 'Shadows Into Light', cursive;
+  padding: 0px;
+  display: flex;
+  color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 750px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.titulo-paragrafo {
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: flex;
+  color: white;
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 320px;
+  font-size: 20px;
+}
+
+.titulo-paragrafo2 {
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: flex;
+  color: white;
+  position: absolute;
+  margin-left: 860px;
+  margin-top: 320px;
+  font-size: 20px;
+}
+
+.marca {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 650px;
+}
+
+#section1 {
+  background-image: url('image/imagem-salto.jpg');
+  height: 1080px;
+  background-size: cover;
+}
+
+#section2 {
+  background-image: url('image/decada1990.jpg');
+  height: 500px;
+}
+
+#section3 {
+  background-image: url('image/e-bikeUCI.jpg');
+  height: 500px;
+}
+
+#section4 {
+  background-image: url('image/bike-section4.jpg');
+  height: 500px;
+}
+
+#section5 {
+  background-image: url('image/e-bike5.jpg');
+  height: 500px;
+}
+
+#section6 {
+  background-image: url('image/bike-section6.jpg');
+  height: 500px;
+}
+
+#section7 {
+  background-color: rgba(190, 190, 190, 0.747);
+  height: 650px;
+}
+
+nav {
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-item {
+  font-family: 'Shadows Into Light', cursive;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.menu-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-item.active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.line {
+  border: 2px solid white;
+  width: 100%;
+}
+
+.line-write {
+  margin-left: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.slider-h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.button-slide {
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.button2 {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.button-slide:hover {
+  background-color: rgb(212, 212, 0);
+}
